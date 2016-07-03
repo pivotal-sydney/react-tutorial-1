@@ -1,0 +1,33 @@
+Id,Title,Labels,Iteration,Iteration Start,Iteration End,Type,Estimate,Current State,Created at,Accepted at,Deadline,Requested By,Description,URL,Owned By
+124416101,Change The Title To Say Flickr for React,"",1,"Jun 27, 2016","Jul 3, 2016",feature,1,unstarted,"Jun 29, 2016",,,Dylan Griffith,"**WHEN** Andrew launches the application
+**THEN** He should see a title labeled ""Flickr for React""
+
+**ACCEPTANCE**
+- A title set to ""Flickr for React"" is visible at the top of the screen",https://www.pivotaltracker.com/story/show/124416101,
+124416111,Andrew can see a list of descriptions displayed as <li>,"",1,"Jun 27, 2016","Jul 3, 2016",feature,3,unstarted,"Jun 29, 2016",,,Dylan Griffith,"**WHEN** Andrew launches the application
+**THEN** He should see a list of items with text describing a Flickr Image (placeholder text for now)
+
+**ACCEPTANCE**
+- Each list item has placeholder description saying ""Flickr""
+",https://www.pivotaltracker.com/story/show/124416111,
+124416121,Andrew can see a placeholder image in each list item,"",1,"Jun 27, 2016","Jul 3, 2016",feature,1,unstarted,"Jun 29, 2016",,,Dylan Griffith,"**WHEN** Andrew launches the application
+**THEN** He should see a placeholder image next to the description in each list item
+
+**ACCEPTANCE**
+- The image should be placed next to the text",https://www.pivotaltracker.com/story/show/124416121,
+124416131,Andrew can see the image and description populated from Flickr's Public API,"",1,"Jun 27, 2016","Jul 3, 2016",feature,2,unstarted,"Jun 29, 2016",,,Dylan Griffith,"**WHEN** Andrew launches the application
+**THEN** He should see the image and title populated in the list view
+
+**ACCEPTANCE**
+- Image should be populated using the media link from the Flickr API
+- Text should be populated using the title field from the Flickr API
+
+**NOTE**
+Use the following public API from Flickr:
+- http://api.flickr.com/services/feeds/photos_public.gne?format=json&nojsoncallback=true
+
+
+**HELPFUL LINKS**
+- [window.fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)",https://www.pivotaltracker.com/story/show/124416131,
+124416521,Clicking The Image Should Make The Text Bold,"",1,"Jun 27, 2016","Jul 3, 2016",feature,3,unstarted,"Jul 3, 2016",,,Dylan Griffith,Clicking the image should make the description next to it bold,https://www.pivotaltracker.com/story/show/124416521,
+124416571,Clicking the image again should make it not bold,"",2,"Jul 4, 2016","Jul 10, 2016",feature,2,unstarted,"Jul 3, 2016",,,Dylan Griffith,,https://www.pivotaltracker.com/story/show/124416571,
